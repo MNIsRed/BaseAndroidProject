@@ -9,3 +9,10 @@ val Float.dp2px
         this,
         Resources.getSystem().displayMetrics
     )
+
+val Float.sp2px
+    get() = TypedValue.applyDimension(
+        TypedValue.COMPLEX_UNIT_SP,
+        this,
+        Resources.getSystem().displayMetrics
+    )
