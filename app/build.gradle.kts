@@ -46,4 +46,5 @@ dependencies {
 
     implementation("com.tencent:mmkv:1.3.1")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
+    implementation("com.blankj:utilcodex:1.31.0")
 }
